@@ -395,3 +395,81 @@ article p {
     font-size: 0.875rem; /* Optional: Adjust text size as needed */
     color: plum; /* Optional: Adjust text color if needed */
 }
+
+/* PROJECTS SECTION */
+
+#projects {
+    position: relative;
+  }
+  
+  .project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+  }
+
+  .about-containers {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap to the next line */
+    gap: 20px;
+  }
+
+  .experience-details-container {
+    overflow: auto; /* or scroll */
+  }
+
+  .project-img {
+    height: 200px;
+    width: 400px;
+    object-fit: cover; /* This ensures the image scales nicely while maintaining aspect ratio */
+  }
+
+  .details-container {
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 400px; /* Ensure a consistent width for all containers */
+  }
+
+  /* contact */
+
+  #contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+  }
+  
+  .contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    margin: 2rem auto;
+    padding: 0.5rem;
+  }
+  
+  .contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+  }
+  
+  .contact-info-container p {
+    font-size: larger;
+  }
+  
+  .contact-icon {
+    cursor: default;
+  }
+  
+  .email-icon {
+    height: 2.5rem;
+  }
+  
+  
+  
+  
+  
+  
+  
