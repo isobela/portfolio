@@ -10,6 +10,10 @@
     #projects {
       height: fit-content;
     }
+    .about-containers {
+      margin-top: 0;
+      width:95%;
+    }
   }
   
   @media screen and (max-width: 1200px) {
@@ -51,7 +55,9 @@
     }
     .about-containers {
       margin-top: 0;
+      width:95%;
     }
+
   }
   
   @media screen and (max-width: 600px) {
@@ -113,5 +119,16 @@
     }
     .text-container {
       text-align: justify;
+      width:95%;
     }
+
+    
+
+    
+
+  
+
+
+
+
   }

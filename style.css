@@ -273,7 +273,8 @@ section {
   }
 
   /* about */
-#about {
+ /* about */
+ #about {
     position: relative;
 }
 
@@ -309,7 +310,8 @@ section {
     background: white;
     border-radius: 2rem;
     border: plum 0.1rem solid;
-    text-align: center;
+    text-align: left;
+    
 }
 
 .section-container {
@@ -367,7 +369,7 @@ section {
 article {
     display: flex;
     align-items: center; /* Aligns icon and text vertically */
-    width: 12rem; /* Increased width to accommodate text */
+    width: 400px; /* Increased width to accommodate text */
     gap: 1rem;
 }
 
@@ -395,6 +397,26 @@ article p {
     font-size: 0.875rem; /* Optional: Adjust text size as needed */
     color: plum; /* Optional: Adjust text color if needed */
 }
+
+.details-container {
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 1000px; /* Adjust width as needed */
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column; /* Stack articles vertically */
+    align-items: flex-start; /* Align items to the start */
+    gap: 1rem; /* Space between articles */
+}
+
 
 /* PROJECTS SECTION */
 
@@ -467,7 +489,10 @@ article p {
     height: 2.5rem;
   }
   
-  
+  .highlight {
+    color: gray; /* Change to your desired color */
+}
+
   
   
   
